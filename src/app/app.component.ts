@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TestBed } from '@angular/core/testing';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gitTest';
+
+  test() {
+    console.log(environment.apikey)
+  }
+
+
 }
+

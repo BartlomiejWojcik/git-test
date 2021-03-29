@@ -28,6 +28,7 @@ jobs:
       env:
         DEFAULT_BRANCH: master
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        apikey: ${{ secrets.APIKEY }}
       run: |
         npm install
         npm run lint
