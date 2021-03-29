@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deployGHPages": "npm run config && ng deploy --base-href=/git-test/ --name='BBart' --email=bbart.mail@example.org"
+    "deployGHPages": "npm run config && ng deploy --base-href=/git-test/ --name=BBart --email=bbart.mail@example.org"
   },
   "private": true,
   "dependencies": {
