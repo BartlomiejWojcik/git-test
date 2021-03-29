@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'gitTest';
 
   test(): void {
-    console.log(environment.apikey);
+    console.log(environment.weatherapi.apikey);
   }
 
 

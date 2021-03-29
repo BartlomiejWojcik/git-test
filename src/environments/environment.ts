@@ -2,9 +2,11 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { weatherapi } from "./weatherapi.environment";
+
 export const environment = {
   production: false,
-  apikey: '123'
+  ...weatherapi
 };
 
 /*
