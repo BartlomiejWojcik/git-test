@@ -1,5 +1,5 @@
 export const weatherapi = {
     weatherapi: {
-        apikey: ''
+        apiKey: ''
     }
 };
