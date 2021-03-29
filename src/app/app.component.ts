@@ -10,8 +10,8 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'gitTest';
 
-  test() {
-    console.log(environment.apikey)
+  test(): void {
+    console.log(environment.apikey);
   }
 
 
