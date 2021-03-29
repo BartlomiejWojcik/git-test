@@ -4,7 +4,7 @@ const targetPath = './src/environments/environment.prod.ts';
 
 const envConfigFile = `export const environment = {
    production: true,
-   firebase: {
+   weatherapi: {
         apiKey: '${process.env.APIKEY}'
     }
 };
